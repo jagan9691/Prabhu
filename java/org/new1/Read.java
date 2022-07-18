@@ -34,11 +34,13 @@ System.out.println("new");
 				System.out.println("one");
 				System.out.println("two");
 				System.out.println("three");
-				System.out.println("four");
 			}
 
 		}
 
+	}
+	public void add() {
+		System.out.println("add");
 	}
 
 }
