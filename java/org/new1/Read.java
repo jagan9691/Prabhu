@@ -19,21 +19,21 @@ public class Read {
 		Workbook w = new XSSFWorkbook(s);
 		Sheet sh = w.getSheet("Sheet1");
 		int rows = sh.getPhysicalNumberOfRows();
-		//Row r = sh.getRow(5);
-		//int cells = r.getPhysicalNumberOfCells();
+		// Row r = sh.getRow(5);
+		// int cells = r.getPhysicalNumberOfCells();
 		for (int i = 0; i < sh.getPhysicalNumberOfRows(); i++) {
 
 			Row rh = sh.getRow(i);
 			for (int j = 0; j < rh.getPhysicalNumberOfCells(); j++) {
 				Cell ce = rh.getCell(j);
-				System.out.println(ce );
-				
+				System.out.println(ce);
+
 				System.out.println("one");
 				System.out.println("two");
 				System.out.println("three");
-
+				System.out.println("four");
 			}
-			
+
 		}
 
 	}
