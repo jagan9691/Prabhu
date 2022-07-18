@@ -27,6 +27,9 @@ public class Read {
 			for (int j = 0; j < rh.getPhysicalNumberOfCells(); j++) {
 				Cell ce = rh.getCell(j);
 				System.out.println(ce );
+				
+				System.out.println("");
+				System.out.println("");
 
 			}
 			
