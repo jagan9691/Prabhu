@@ -12,6 +12,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Read {
+	public void add() {
+System.out.println("add");
+	}
 	public static void main(String[] args) throws IOException {
 		File f = new File("F:\\eclipse\\Excel\\Data\\Day1.xlsx");
 
@@ -31,7 +34,8 @@ public class Read {
 				System.out.println("one");
 				System.out.println("two");
 				System.out.println("three");
-
+				
+				
 			}
 			
 		}
