@@ -45,4 +45,19 @@ public class Read {
 		System.out.println("new");
 	}
 
+	private void sum() {
+		System.out.println("new1");
+
+	}
+
+	private void avg() {
+		System.out.println("new2");
+
+	}
+
+	private void total() {
+		System.out.println("new3");
+
+	}
+
 }
