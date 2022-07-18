@@ -28,8 +28,9 @@ public class Read {
 				Cell ce = rh.getCell(j);
 				System.out.println(ce );
 				
-				System.out.println("");
-				System.out.println("");
+				System.out.println("one");
+				System.out.println("two");
+				System.out.println("three");
 
 			}
 			
