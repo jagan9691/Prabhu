@@ -12,6 +12,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Read {
+	private void newMeth() {
+System.out.println("new");
+	}
 	public static void main(String[] args) throws IOException {
 		File f = new File("F:\\eclipse\\Excel\\Data\\Day1.xlsx");
 
